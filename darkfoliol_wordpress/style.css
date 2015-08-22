@@ -1,0 +1,525 @@
+/*
+THEME NAME: Darkfolio
+THEME URI: http://www.jasminweb.net/darkfolio
+DESCRIPTION: A modern wordpress theme
+VERSION: 1.0
+AUTHOR: Jasmin Krhan
+AUTHOR URI: http://www.jasminweb.net
+
+
+*/
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! // */
+:focus {
+	outline: 0;
+}
+
+#sidebar  ul {
+	list-style: none;
+}
+
+#sidebar2  ul {
+	list-style: none;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+
+body {
+	line-height: 150% ;
+	color: black;
+	height: 100% ;
+	font-family: helvetica, arial, verdana ; 
+	font-size: 13px ;
+	background: url(images/bg.jpg) repeat ;  
+	
+	
+}
+
+
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+a:link    {  text-decoration: none  ; color:white ; }
+a:visited {  text-decoration: none  ; color:white ; }
+a:active  {  text-decoration: none  ; color:white ; }
+
+
+.postauthor { width: 500px; margin-top: 15px; background:#262626 none repeat scroll 0 0;
+border:1px solid #484848;
+color:#E0E1E1;
+width:560px;
+padding: 15px; 
+padding-bottom: 10px; 
+}
+
+
+#topheader { width: 100% ; height: 30px;border-bottom: 1px solid #3c3f43;  background: url(images/topheader.jpg) repeat-x ; }
+
+.authorweb {   margin-top: 10px; }
+.authorweb img { margin-left: -10px; }
+
+* html .authorweb img { margin-left: 109px; }
+
+.currently { width: 400px;  
+ background:#262626 none repeat scroll 0 0;
+border:1px solid #484848 ; width: 560px;
+padding: 15px; 
+color: silver ;
+font-weight: bold ;
+margin-bottom: 15px;
+}
+
+#rss1 {background:transparent url(images/rssorange.png) no-repeat scroll 0 0;
+color:#FFFFFF;
+display:block;
+padding:1px 0 3px 22px;
+margin-left: 764px;
+font-size: 11px;
+
+}
+
+.authorh1 {  color:#84DBFF; font-weight: bold ; font-size: 16px; margin-bottom: 10px; }
+.authorimage img {  width: 100px; height: 100px;  }
+
+.authorimage { border: 1px solid silver ;margin-bottom: 10px; float: left; margin-right: 15px; width: 100px; height: 100px;  }
+
+
+#header {  width: 100%;  height: 100px;  background: #242424 ; }
+#topheaderbox {  padding: 4px;width: 950px; margin: 0px auto ; color: silver ; }
+
+
+#share {  margin-top: 20px; width: 590px; 
+
+background:#262626 none repeat scroll 0 0;
+border:1px solid #484848;
+margin-bottom: 15px; 
+}
+
+
+.twitter-message { margin-bottom: 15px; }
+
+.readmore { float: left ; margin-left: 417px; margin-top: 6px; }
+
+
+.date { 
+
+
+
+ float: left ;
+background:transparent url(images/db.png) no-repeat scroll 0 0; 
+padding-left: 25px; font-size: 11px; 
+margin-left: -5px;}
+#headerwrap  {   height: 100px; background: url(images/header.jpg)  ; }
+
+#headerwrap img { margin-left: -5px; margin-top: 18px; }
+#postcontent { float: left ; width: 622px; }
+
+#menu li a:hover { color: #FF6C24;  }
+
+#menu { width: 100% ; height: 35px;  background: url(images/menu.jpg) repeat-x ; border-top: 1px solid #484848 ;
+border-bottom: 1px solid #484848 ;}
+
+
+#navigation { border-left: 1px solid #4c4c4c ;  margin-top: 7px; width: 960px; float: left ; margin-left: 4px; }
+#navigation li { float: left ; display: inline ;  border-right: 1px solid #4c4c4c ;padding-left: 19px;padding-right: 19px;  font-size: 13px;  }
+
+.com_pic {  background: url(images/comment.png) no-repeat scroll 8px 5px;  width: 50px; height: 30px;  margin-left: 9px; float: left ; margin-top: -1px;  }
+
+#footerborder {
+	
+	background:black none repeat scroll 0 0;
+float:left;
+height:1px;
+width:100%;
+
+}
+
+#submit { margin-top: 5px; }
+
+.navigation a:link{ color: silver ; }
+
+.navigation a:visited{ color: silver ; }
+
+#menuwrapper { margin: 0px auto ; position: relative ; width: 963px;}
+
+
+.icons {  margin-top: 8px; margin-right: 50px; float: right ;}
+
+
+#border { float: left ; width: 100%; min-width: 1000px; background: black;  height: 1px; border-top: 1px solid #292626; }
+
+#footer { padding-top: 7px; float: left ; background: url(images/menu.jpg) repeat-x; border-top:1px solid #373333; width: 100%; height: 28px; color: #9c9c9c ; }
+
+
+#main {
+background: #1D1E1E url(images/bg.jpg) repeat scroll 0 0;
+float:left;
+padding-bottom:40px;
+width:100%
+
+}
+
+#welcome {   float: left ;  margin-top: 30px;  margin-bottom: 50px;  }
+
+
+li.twitter-item { margin-bottom: 150px; }
+
+#footer p { margin-left: 44px; color: #383737 ; }
+#footermenu a:link { color: #383737 ; }
+#footermenu li { display: inline ; color: #383737 ;  display: inline ; border-right: 1px dotted #383737 ;padding-right: 15px;margin-right: 15px;}
+#footermenu { float: left ; margin-left: 605px; margin-top: -20px; color: #383737 ;}
+
+
+
+#rss { float: right ; margin-top: -18px ; margin-right: 14px;}
+
+#message { float: left ;  margin-top: 20px; width: 300px;}
+
+#message h1 {margin-bottom: 15px; font-weight: bold ; font-size: 16px;  color:#FF6C24;}
+#follow { margin-top: 20px; float: left ; margin-left: 90px; }
+#message b { float: right ; margin-top: -80px; margin-right: -50px; font-weight: normal ;color: silver ; width: 240px;}
+#image { border: 1px solid black ;width: 100px; height: 75px; background: silver ; }
+
+#follow h1{ font-size: 16px; color:#FF6C24; font-weight: bold ; margin-bottom: 15px; margin-left: 5px;}
+#icon { position: absolute ; margin-left: -330px; margin-top: 133px;}
+
+
+#follow img { margin-right: 7px; }
+
+#sidebar { float: left ; margin-left: 11px; background:#262626 none repeat scroll 0 0;
+border:1px solid #484848; width: 286px; 
+color:#E0E1E1;
+min-height: 812px;
+padding:15px;
+margin-top: 30px; }
+
+#sidebar h2 { color:#FF6C24 ;
+font-size:16px;
+margin-bottom: 10px; 
+font-weight: bold ; 
+ }
+ 
+ #sidebar h3 { color:#FF6C24 ;
+font-size:16px;
+margin-bottom: 10px; 
+font-weight: bold ; 
+ }
+
+
+
+#s { background: #484848 url(images/find.png ) no-repeat ; border: 1px solid black; margin-top: 5px; padding: 5px 30px 5px 35px;}
+
+
+#comment_text { width: 350px; float: left ;}
+
+#postcomment { margin-top: 30px; margin-bottom: 15px; font-size: 18px; }
+
+
+#commentlist li { margin-bottom: 10px; list-style-type: none ;  width: 540px; border:1px solid #484848 ;  padding: 10px; }
+#commentlist li p cite { font-size: 10px; }
+#commentlist li ul {
+	border-left: 1px solid #ddd;
+	font-size: 110%;
+	list-style-type: none;
+	
+}
+
+#commentlist img { margin-bottom: 5px;  border: 1px solid black ; padding: 2px; background: silver ;  }
+
+#commentlist a:link { text-decoration: underline ; }
+#commentlist a:visited { text-decoration: underline ; }
+
+#author, #email, #comment, #url { margin-bottom: 5px; }
+
+#author_link { float: right ; }
+
+#comment_author { margin-top: 5px; }
+
+
+
+.flickr { width: 300px; margin-top: 25px; margin-bottom: 20px; }
+.flickr h3 { margin-bottom: 10px; }
+
+.flickr img { margin-right: 10px; padding: 5px; background-color: silver;
+border:1px solid black; margin-bottom: 10px; }
+
+.flickr img:hover { background: #0082a5; }
+
+.banner li { display: inline ; }
+.banner img { width: 125px; height: 125px; background-color: silver;
+border:1px solid black; margin-right: 6px;
+padding:5px;}
+
+.banner h3 { margin-bottom: 10px; font-size: 16px; font-weight: bold ;}
+
+
+
+#copyright{ text-align: center ;float: left;  padding-top: 15px;margin-left: 0px; width: 950px; border-top: 1px solid #464646 ; margin-top: 15px ; }
+
+
+.banner p a:link { color: silver ; } 
+
+.banner p { text-align: center ; color: silver ; margin-top: 8px; font-size: 11px;}
+	
+.post_snippet { background:#262626 none repeat scroll 0 0;
+border:1px solid #484848 ; width: 590px;  margin-bottom: 20px; color: #e0e1e1 ;  
+
+
+
+ }
+
+.post_snippet h2  { margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	font-size: 28px;  font-weight: bold ; 
+	line-height: 120% ; }
+	
+	
+
+.h2 h2 { margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	font-size: 28px;  font-weight: bold ; 
+	line-height: 120% ; }
+	
+
+.wrap_single li { margin-left: 15px; }
+	
+.post_snippet h6  { margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	 }
+
+.post_snippet_single { background:#262626 none repeat scroll 0 0;
+border:1px solid #484848 ; width: 590px;  margin-bottom: 20px; color: #e0e1e1 ;  
+
+
+ }
+
+
+.postthumbnail { float: left ;  border:1px solid black; margin-right: 20px; }
+
+.wrap { padding: 15px ; margin-bottom: 5px; height: 197px; }
+
+.wrap_single { padding: 15px ; margin-bottom: 5px; }
+.wrap_single h2 {  font-size: 28px; font-weight: bold ; line-height: 120% ; }
+.comments {   height: 33px;  border-top: 1px solid #484848; width: 100%;   }
+
+.comments h6 a:link{ margin-top: 6px; float: left ; margin-left: 17px; color: black;} 
+.comments h6 a:visited{ margin-top: 6px; float: left ; margin-left: 17px; color: black;} 
+
+
+.post { margin-top: 8px;   }
+
+
+#twitter {   margin-bottom: 20px; margin-top: 5px; }
+
+#commentform { margin-top: 20px; }
+#commentform input { margin-top: 5px ;  background: #424241 ; border: 1px solid black; color:#E0E1E1; padding: 5px;}
+#commentform label { font-size: 13px;  }
+#commentform textarea {padding: 5px; background: #424241 ; border: 1px solid black;  color:#E0E1E1;}
+.posted { color: #D5FBFF; margin-top: 10px; color:#E0E1E1;}
+.posted a:link { color: #84dbff ; }
+
+.posted a:visited { color: #84dbff ; }
+
+
+#comments { font-size: 16px; margin-bottom: 15px; }
+
+
+.single_post_ { margin-top: 40px;  }
+
+
+
+.share { float: right; margin-top: 44px;} 
+.share a:link { margin-right: 5px; }
+
+
+.wrapper { width: 960px; margin: 0px auto ; position: relative ;}
+#wrapper { width: 950px; margin: 0px auto ; position: relative ;}
+
+
+.searchform { margin-right: 35px;  margin-top: 28px; float: right ; }
+
+#logobox { width: 600px; height: 40px;  float: left ;} 
+
+
+#related { float: left ; margin-top: 10px; background:#262626 none repeat scroll 0 0;
+border:1px solid #484848;
+color:#E0E1E1; padding: 15px; 
+width:560px;
+}
+
+
+
+.searchform {
+	display: inline;
+	border: 0 ; 
+}
+
+
+
+.searchform label {
+	vertical-align: middle;
+	display: inline;
+	margin-right: 5px;
+	font-size: 11px;
+	color: #181818;
+	font-weight: bold;
+}
+
+.searchform input {
+	vertical-align: middle;
+	display: inline;
+	font-size: 11px;
+	border: 1px solid #9c9c9c  ; 
+}
+
+.searchinput {
+	background: #2d2d2d;
+	padding-left: 2px;
+	width: 220px;
+	padding-top: 8px; 
+	color: silver;
+	height: 21px;
+	background: url(images/search.png) no-repeat scroll 190px 3px; 
+    
+}
+
+
+* +html #commentform label
+{
+
+margin-top: 10px; 
+position: absolute ; 
+}
+
+* html #commentform label
+{
+
+margin-top: 10px; 
+position: absolute ; 
+}
+
+
+
+* html #wrapper { margin: 0px auto ; position: relative ; width: 990px;}
+* html #headerwrap img { margin-left: 16px; display: block; }
+
+* html #topheaderbox {  padding: 4px;width: 990px; margin: 0px auto ; color: silver ; }
+* html .date { 
+
+float: left ;
+background:transparent url(images/db.png) no-repeat scroll 0 0; 
+padding-left: 25px; font-size: 11px; 
+margin-left: 8px; }
+
+
+* html #footerborder {
+	
+	background: url(images/bg.jpg) ;
+float:left;
+height:0px ; 
+width:100%;
+
+}
+
+* html .readmore { float: left ; margin-left: 235px; }
+
+.readmore a:link { text-decoration: underline ; }
+.readmore a:visited { text-decoration: underline ; }
+
+* html .com_pic  { margin-top: 5px;  }
+
+* html .com_pic  h6 { margin-top: -6px;  margin-left: -8px; float: left ; }
+
+
+* html .comments {   height: 15px;  border-top: 1px solid #484848; width: 100%;   }
+
+* html .searchinput {
+	
+	background: #2d2d2d;
+	padding-left: 2px;
+	width: 220px;
+	padding-top: 8px; 
+	color: silver;
+	height: 21px;
+	float: right ;
+	margin-right: 6px; 
+    
+}
+
+
+* html #rss1 {background:transparent url(images/rssorange.png) no-repeat scroll 0 0;
+color:#FFFFFF;
+display:block;
+padding:1px 0 3px 22px;
+margin-left: 790px;
+font-size: 11px;
+
+}
+
+*+ html .shareicon { background: url(images/share.png); float: left ; width: 220px; height: 45px; }
+
+*+ html #share { padding-bottom: 6px; }
+
+
+* html .shareicon { background: url(images/share.png); float: left ; width: 220px; height: 45px; }
+
+* html #share { padding-bottom: 6px; }
+
+
+* html .icons { margin-right: 20px; float: right ;}
